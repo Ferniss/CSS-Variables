@@ -17,3 +17,16 @@ footer .blurb{
     line-height: 2em;
     font-size: 0.9em
 }
+@media screen and (max-width: 480px){
+    footer{
+        width: 55em;
+        height: 25em;
+    }
+    .blurb{
+        height: 100px;
+    }
+    footer .blurb{
+        font-size: 25px;
+    }
+
+}

@@ -6,3 +6,13 @@ body{
     margin: 0;
     font-family: Verdana;
 }
+@media screen and (max-width: 480px){
+    h2{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .spot{
+        font-weight: bold;
+        font-size: 50px;
+    }
+}

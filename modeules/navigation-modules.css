@@ -11,3 +11,18 @@ nav.main-nav ul{
 nav a{
     color: var(--link-color);
 }
+@media screen and (max-width: 480px){
+    nav.main-nav ul{
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        line-height: 1.5;
+        align-content: center;
+        margin-left: 5em;
+    }
+    :root{
+        --link-color: black;
+    }
+}

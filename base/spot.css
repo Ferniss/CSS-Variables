@@ -9,6 +9,5 @@
 
 .spot p{
     color: var(--text-color);
-    line-height: 2em;
-    font-size: 0.9em
+    font-size: 0.7em;
 }
